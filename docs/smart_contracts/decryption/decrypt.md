@@ -34,8 +34,8 @@ contract TestAsyncDecrypt is SepoliaZamaFHEVMConfig, SepoliaZamaGatewayConfig, G
   bool public yBool;
 
   constructor() {
-      xBool = TFHE.asEbool(true);
-      TFHE.allowThis(xBool);
+      xBool = FHE.asEbool(true);
+      FHE.allowThis(xBool);
   }
 
   function requestBool() public {

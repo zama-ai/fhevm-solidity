@@ -118,8 +118,8 @@ contract TestAsyncDecrypt is SepoliaZamaFHEVMConfig, SepoliaZamaGatewayConfig, G
   uint32 public yUint32;
 
   constructor() {
-      xUint32 = TFHE.asEuint32(32);
-      TFHE.allowThis(xUint32);
+      xUint32 = FHE.asEuint32(32);
+      FHE.allowThis(xUint32);
   }
 
   function requestUint32(uint32 input1, uint32 input2) public {

@@ -94,7 +94,7 @@ function isInitialized(T v) internal pure returns (bool)
 **Example: Initialization Check for Encrypted Counter**
 
 ```solidity
-require(TFHE.isInitialized(counter), "Counter not initialized!");
+require(FHE.isInitialized(counter), "Counter not initialized!");
 ```
 
 ## Summary
