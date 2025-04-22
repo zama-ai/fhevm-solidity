@@ -4,11 +4,11 @@ This document explains how to enable encrypted computations in your smart contra
 
 ## Core configuration setup
 
-To utilize encrypted computations in Solidity contracts, you must configure the **TFHE library** and **Gateway addresses**. The `httpz` package simplifies this process with prebuilt configuration contracts, allowing you to focus on developing your contract’s logic without handling the underlying cryptographic setup.
+To utilize encrypted computations in Solidity contracts, you must configure the **FHE library** and **Gateway addresses**. The `httpz` package simplifies this process with prebuilt configuration contracts, allowing you to focus on developing your contract’s logic without handling the underlying cryptographic setup.
 
 ## Key components configured automatically
 
-1. **TFHE library**: Sets up encryption parameters and cryptographic keys.
+1. **FHE library**: Sets up encryption parameters and cryptographic keys.
 2. **Gateway**: Manages secure cryptographic operations, including reencryption and decryption.
 3. **Network-specific settings**: Adapts to local testing, testnets (Sepolia for example), or mainnet deployment.
 

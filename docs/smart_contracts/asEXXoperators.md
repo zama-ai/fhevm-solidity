@@ -1,6 +1,6 @@
 # asEbool, asEuintXX, asEaddress and asEbytesXX operations
 
-This documentation covers the `asEbool`, `asEuintXX`, `asEaddress` and `asEbytesXX` operations provided by the TFHE library for working with encrypted data in the HTTPZ. These operations are essential for converting between plaintext and encrypted types, as well as handling encrypted inputs.
+This documentation covers the `asEbool`, `asEuintXX`, `asEaddress` and `asEbytesXX` operations provided by the FHE library for working with encrypted data in the HTTPZ. These operations are essential for converting between plaintext and encrypted types, as well as handling encrypted inputs.
 
 The operations can be categorized into three main use cases:
 
@@ -14,7 +14,7 @@ Trivial encryption simply put is a plain text in a format of a ciphertext.
 
 ### Overview
 
-Trivial encryption is the process of converting plaintext values into encrypted types (ciphertexts) compatible with TFHE operators. Although the data is in ciphertext format, it remains publicly visible on-chain, making it useful for operations between public and private values.
+Trivial encryption is the process of converting plaintext values into encrypted types (ciphertexts) compatible with FHE operators. Although the data is in ciphertext format, it remains publicly visible on-chain, making it useful for operations between public and private values.
 
 This type of casting involves converting plaintext (unencrypted) values into their encrypted equivalents, such as:
 

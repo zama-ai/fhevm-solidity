@@ -1,6 +1,6 @@
 # Operations on encrypted types
 
-This document outlines the operations supported on encrypted types in the `TFHE` library, enabling arithmetic, bitwise, comparison, and more on Fully Homomorphic Encryption (FHE) ciphertexts.
+This document outlines the operations supported on encrypted types in the `FHE` library, enabling arithmetic, bitwise, comparison, and more on Fully Homomorphic Encryption (FHE) ciphertexts.
 
 ## Arithmetic operations
 
@@ -23,7 +23,7 @@ Division (FHE.div) and remainder (FHE.rem) operations are currently supported on
 
 ## Bitwise operations
 
-The TFHE library also supports bitwise operations, including shifts and rotations:
+The FHE library also supports bitwise operations, including shifts and rotations:
 
 | Name         | Function name | Symbol | Type   |
 | ------------ | ------------- | ------ | ------ |
@@ -69,7 +69,7 @@ For more details, refer to the [Random Encrypted Numbers](random.md) document.
 
 ## Overload operators
 
-The `TFHE` library supports operator overloading for encrypted integers (e.g., `+`, `-`, `*`, `&`) using the Solidity [`using for`](https://docs.soliditylang.org/en/v0.8.22/contracts.html#using-for) syntax. These overloaded operators currently perform unchecked operations, meaning they do not include overflow checks.
+The `FHE` library supports operator overloading for encrypted integers (e.g., `+`, `-`, `*`, `&`) using the Solidity [`using for`](https://docs.soliditylang.org/en/v0.8.22/contracts.html#using-for) syntax. These overloaded operators currently perform unchecked operations, meaning they do not include overflow checks.
 
 **Example**\
 Overloaded operators make code more concise:
@@ -106,7 +106,7 @@ euint8 percentage = FHE.asEuint8(75);  // percentage fits in 8 bits
 
 ### Use scalar operands when possible to save gas
 
-Some TFHE operators exist in two versions: one where all operands are ciphertexts handles, and another where one of the operands is an unencrypted scalar. Whenever possible, use the scalar operand version, as this will save a lot of gas.
+Some FHE operators exist in two versions: one where all operands are ciphertexts handles, and another where one of the operands is an unencrypted scalar. Whenever possible, use the scalar operand version, as this will save a lot of gas.
 
 ❌ For example, this snippet cost way more in gas:
 
@@ -126,9 +126,9 @@ x = FHE.add(x,42);
 
 Despite both leading to the same encrypted result!
 
-### Beware of overflows of TFHE arithmetic operators
+### Beware of overflows of FHE arithmetic operators
 
-TFHE arithmetic operators can overflow. Do not forget to take into account such a possibility when implementing HTTPZ smart contracts.
+FHE arithmetic operators can overflow. Do not forget to take into account such a possibility when implementing HTTPZ smart contracts.
 
 ❌ For example, if you wanted to create a mint function for an encrypted ERC20 token with an encrypted `totalSupply` state variable, this code is vulnerable to overflows:
 

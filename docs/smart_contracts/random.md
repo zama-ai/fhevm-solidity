@@ -1,6 +1,6 @@
 # Generate random numbers
 
-This document explains how to generate cryptographically secure random encrypted numbers fully on-chain using the `TFHE` library in HTTPZ. These numbers are encrypted and remain confidential, enabling privacy-preserving smart contract logic.
+This document explains how to generate cryptographically secure random encrypted numbers fully on-chain using the `FHE` library in HTTPZ. These numbers are encrypted and remain confidential, enabling privacy-preserving smart contract logic.
 
 ## **Key notes on random number generation**
 
@@ -13,7 +13,7 @@ Random number generation must be performed during transactions, as it requires t
 
 ## **Basic usage**
 
-The `TFHE` library allows you to generate random encrypted numbers of various bit sizes. Below is a list of supported types and their usage:
+The `FHE` library allows you to generate random encrypted numbers of various bit sizes. Below is a list of supported types and their usage:
 
 ```solidity
 // Generate random encrypted numbers

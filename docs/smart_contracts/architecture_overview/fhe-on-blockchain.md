@@ -36,11 +36,11 @@ These three keys work together to facilitate private and secure computations, fo
 
 ### **Building on Zama's FHE library**
 
-At its core, the HTTPZ is built on Zama's high-performance FHE library, **TFHE-rs**, written in Rust. This library implements the TFHE (Torus Fully Homomorphic Encryption) scheme and is designed to perform secure computations on encrypted data efficiently.
+At its core, the HTTPZ is built on Zama's high-performance FHE library, **FHE-rs**, written in Rust. This library implements the FHE (Torus Fully Homomorphic Encryption) scheme and is designed to perform secure computations on encrypted data efficiently.
 
-> **Info**: For detailed documentation and implementation examples on the `tfhe-rs` library, visit the [TFHE-rs documentation](https://docs.zama.ai/tfhe-rs).
+> **Info**: For detailed documentation and implementation examples on the `tfhe-rs` library, visit the [FHE-rs documentation](https://docs.zama.ai/tfhe-rs).
 
-However, integrating a standalone FHE library like TFHE-rs into a blockchain environment involves unique challenges. Blockchain systems demand efficient processing, public verifiability, and seamless interoperability, all while preserving their decentralized nature. To address these requirements, Zama designed the HTTPZ, a system that bridges the computational power of TFHE-rs with the transparency and scalability of blockchain technology.
+However, integrating a standalone FHE library like FHE-rs into a blockchain environment involves unique challenges. Blockchain systems demand efficient processing, public verifiability, and seamless interoperability, all while preserving their decentralized nature. To address these requirements, Zama designed the HTTPZ, a system that bridges the computational power of FHE-rs with the transparency and scalability of blockchain technology.
 
 ### **Challenges in blockchain integration**
 

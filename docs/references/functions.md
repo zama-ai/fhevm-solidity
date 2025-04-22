@@ -1,10 +1,10 @@
 # Smart contracts - HTTPZ API
 
-This document provides an overview of the functions available in the `TFHE` Solidity library. The TFHE library provides functionality for working with encrypted types and performing operations on them. It implements fully homomorphic encryption (FHE) operations in Solidity.
+This document provides an overview of the functions available in the `FHE` Solidity library. The FHE library provides functionality for working with encrypted types and performing operations on them. It implements fully homomorphic encryption (FHE) operations in Solidity.
 
 ## Overview
 
-The `TFHE` Solidity library provides essential functionality for working with encrypted data types and performing fully homomorphic encryption (FHE) operations in smart contracts. It is designed to streamline the developer experience while maintaining flexibility and performance.
+The `FHE` Solidity library provides essential functionality for working with encrypted data types and performing fully homomorphic encryption (FHE) operations in smart contracts. It is designed to streamline the developer experience while maintaining flexibility and performance.
 
 ### **Core Functionality**
 
@@ -163,7 +163,7 @@ function max(uint32 a, euint8 b) internal view returns (euint32)
 There are two unary operators: `neg` (`-`) and `not` (`!`). Note that since we work with unsigned integers, the result of negation is interpreted as the modular opposite. The `not` operator returns the value obtained after flipping all the bits of the operand.
 
 {% hint style="info" %}
-More information about the behavior of these operators can be found at the [TFHE-rs docs](https://docs.zama.ai/tfhe-rs/fhe-computation/operations/arithmetic-operations).
+More information about the behavior of these operators can be found at the [FHE-rs docs](https://docs.zama.ai/tfhe-rs/fhe-computation/operations/arithmetic-operations).
 {% endhint %}
 
 ### Bitwise operations
@@ -172,7 +172,7 @@ More information about the behavior of these operators can be found at the [TFHE
 
 #### Bitwise operations (`AND`, `OR`, `XOR`)
 
-Unlike other binary operations, bitwise operations do not natively accept a mix of ciphertext and plaintext inputs. To ease developer experience, the `TFHE` library adds function overloads for these operations. Such overloads implicitely do a trivial encryption before actually calling the operation function, as shown in the examples below.
+Unlike other binary operations, bitwise operations do not natively accept a mix of ciphertext and plaintext inputs. To ease developer experience, the `FHE` library adds function overloads for these operations. Such overloads implicitely do a trivial encryption before actually calling the operation function, as shown in the examples below.
 
 Available for euint\* types:
 
@@ -287,7 +287,7 @@ euint32 r = FHE.randEuint32();
 
 ## Access control functions
 
-The `TFHE` library provides a robust set of access control functions for managing permissions on encrypted values. These functions ensure that encrypted data can only be accessed or manipulated by authorized accounts or contracts.
+The `FHE` library provides a robust set of access control functions for managing permissions on encrypted values. These functions ensure that encrypted data can only be accessed or manipulated by authorized accounts or contracts.
 
 ### Permission management
 

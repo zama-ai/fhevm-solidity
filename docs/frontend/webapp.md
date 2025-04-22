@@ -83,7 +83,7 @@ import { initHTTPZ, createInstance } from "@httpz/sdk";
 
 ### Step 2: Initialize your project
 
-To use the library in your project, you need to load the WASM of [TFHE](https://www.npmjs.com/package/tfhe) first with `initHTTPZ`.
+To use the library in your project, you need to load the WASM of [FHE](https://www.npmjs.com/package/tfhe) first with `initHTTPZ`.
 
 ```javascript
 import { initHTTPZ } from "@httpz/sdk/bundle";
@@ -108,7 +108,7 @@ Once the WASM is loaded, you can now create an instance. An instance receives an
 import { initHTTPZ, createInstance } from "@httpz/sdk/bundle";
 
 const init = async () => {
-  await initHTTPZ(); // Load TFHE
+  await initHTTPZ(); // Load FHE
   return createInstance({
     kmsContractAddress: "0x9D6891A6240D6130c54ae243d8005063D05fE14b",
     aclContractAddress: "0xFee8407e2f5e3Ee68ad77cAE98c434e637f516e5",
