@@ -108,7 +108,7 @@ For example, see this snippet where we add two `uint256`s during the request cal
 ```solidity
 pragma solidity ^0.8.24;
 
-import "fhevm/lib/TFHE.sol";
+import "fhevm/lib/FHE.sol";
 import { SepoliaZamaFHEVMConfig } from "fhevm/config/ZamaFHEVMConfig.sol";
 import { SepoliaZamaGatewayConfig } from "fhevm/config/ZamaGatewayConfig.sol";
 import "fhevm/gateway/GatewayCaller.sol";

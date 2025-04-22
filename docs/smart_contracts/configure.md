@@ -64,7 +64,7 @@ import { SepoliaZamaGatewayConfig } from "fhevm/config/ZamaGatewayConfig.sol";
 **Example: Configuring the gateway with Sepolia settings**
 
 ```solidity
-import "fhevm/lib/TFHE.sol";
+import "fhevm/lib/FHE.sol";
 import { SepoliaZamaFHEVMConfig } from "fhevm/config/ZamaFHEVMConfig.sol";
 import { SepoliaZamaGatewayConfig } from "fhevm/config/ZamaGatewayConfig.sol";
 import "fhevm/gateway/GatewayCaller.sol";

@@ -32,7 +32,7 @@ The ACL system allows you to define two types of permissions for accessing ciphe
 ### Example: granting permissions in a multi-contract setup
 
 ```solidity
-import "fhevm/lib/TFHE.sol";
+import "fhevm/lib/FHE.sol";
 import { SepoliaZamaFHEVMConfig } from "fhevm/config/ZamaFHEVMConfig.sol";
 
 contract SecretGiver is SepoliaZamaFHEVMConfig {
