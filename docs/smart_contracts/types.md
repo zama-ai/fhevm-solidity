@@ -43,5 +43,5 @@ The `FHE` library currently supports the following encrypted types:
 | `eint256`   | No, coming soon       |
 
 {% hint style="info" %}
-Higher-precision integer types are available in the `FHE-rs` library and can be added to `HTTPZ` as needed.
+Higher-precision integer types are available in the `TFHE-rs` library and can be added to `HTTPZ` as needed.
 {% endhint %}
