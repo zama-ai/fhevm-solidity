@@ -39,7 +39,7 @@ Include this line at the top of your project.
 In your project, you can use the bundle import if you install `@fhevm/sdk` package:
 
 ```javascript
-import { initfhevm, createInstance } from "@fhevm/sdk/bundle";
+import { initFhevm, createInstance } from "@fhevm/sdk/bundle";
 ```
 
 #### Using ESM CDN
@@ -48,9 +48,9 @@ If you prefer You can also use the `@fhevm/sdk` as a ES module:
 
 ```html
 <script type="module">
-  import { initfhevm, createInstance } from "https://cdn.zama.ai/fhevmjs/0.6.2/fhevmjs.js";
+  import { initFhevm, createInstance } from "https://cdn.zama.ai/fhevmjs/0.6.2/fhevmjs.js";
 
-  await initfhevm();
+  await initFhevm();
   const instance = await createInstance({
     network: window.ethereum,
     kmsContractAddress: "0x9D6891A6240D6130c54ae243d8005063D05fE14b",
@@ -78,18 +78,18 @@ pnpm add @fhevm/sdk
 `@fhevm/sdk` uses ESM format. You need to set the [type to "module" in your package.json](https://nodejs.org/api/packages.html#type). If your node project use `"type": "commonjs"` or no type, you can force the loading of the web version by using `import { createInstance } from '@fhevm/sdk/web';`
 
 ```javascript
-import { initfhevm, createInstance } from "@fhevm/sdk";
+import { initFhevm, createInstance } from "@fhevm/sdk";
 ```
 
 ### Step 2: Initialize your project
 
-To use the library in your project, you need to load the WASM of [TFHE](https://www.npmjs.com/package/tfhe) first with `initfhevm`.
+To use the library in your project, you need to load the WASM of [TFHE](https://www.npmjs.com/package/tfhe) first with `initFhevm`.
 
 ```javascript
-import { initfhevm } from "@fhevm/sdk/bundle";
+import { initFhevm } from "@fhevm/sdk/bundle";
 
 const init = async () => {
-  await initfhevm(); // Load needed WASM
+  await initFhevm(); // Load needed WASM
 };
 ```
 
@@ -105,10 +105,10 @@ Once the WASM is loaded, you can now create an instance. An instance receives an
 - `coprocessorUrl` (optional): the URL of the coprocessor
 
 ```javascript
-import { initfhevm, createInstance } from "@fhevm/sdk/bundle";
+import { initFhevm, createInstance } from "@fhevm/sdk/bundle";
 
 const init = async () => {
-  await initfhevm(); // Load TFHE
+  await initFhevm(); // Load TFHE
   return createInstance({
     kmsContractAddress: "0x9D6891A6240D6130c54ae243d8005063D05fE14b",
     aclContractAddress: "0xFee8407e2f5e3Ee68ad77cAE98c434e637f516e5",
