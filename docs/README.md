@@ -1,6 +1,6 @@
 ---
 description: >-
-  Fhevm is a technology that enables confidential smart contracts on the EVM
+  fhevm is a technology that enables confidential smart contracts on the EVM
   using Fully Homomorphic Encryption (FHE).
 layout:
   title:
@@ -39,7 +39,7 @@ Explore the technical architecture of the fhevm protocol and the underlying cryp
 
 - [Architecture overview](smart_contracts/architecture_overview.md)
 - [FHE on blockchain](smart_contracts/architecture_overview/fhe-on-blockchain.md)
-- [Fhevm components](smart_contracts/architecture_overview/fhevm-components.md)
+- [fhevm components](smart_contracts/architecture_overview/fhevm-components.md)
 - [Encryption, decryption re-encryption and computation](smart_contracts/d_re_ecrypt_compute.md)
 
 ### References
