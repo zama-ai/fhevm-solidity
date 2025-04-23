@@ -83,7 +83,7 @@ import { initHTTPZ, createInstance } from "@httpz/sdk";
 
 ### Step 2: Initialize your project
 
-To use the library in your project, you need to load the WASM of [FHE](https://www.npmjs.com/package/tfhe) first with `initHTTPZ`.
+To use the library in your project, you need to load the WASM of [TFHE](https://www.npmjs.com/package/tfhe) first with `initHTTPZ`.
 
 ```javascript
 import { initHTTPZ } from "@httpz/sdk/bundle";
