@@ -6,7 +6,7 @@ This document explains how to implement conditional logic (if/else branching) wh
 
 In fhevm, when you perform [comparison operations](../references/functions.md#comparison-operation-eq-ne-ge-gt-le-lt), the result is an encrypted boolean (`ebool`). Since encrypted booleans do not support standard boolean operations like `if` statements or logical operators, conditional logic must be implemented using specialized methods.
 
-To facilitate conditional assignments, fhevm provides the `TFHE.select` function, which acts as a ternary operator for encrypted values.
+To facilitate conditional assignments, fhevm provides the `FHE.select` function, which acts as a ternary operator for encrypted values.
 
 ## **Using `FHE.select` for conditional logic**
 

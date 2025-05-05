@@ -1,6 +1,6 @@
 # Supported types
 
-This document introduces the encrypted integer types provided by the `TFHE` library in fhevm and explains their usage, including casting, state variable declarations, and type-specific considerations.
+This document introduces the encrypted integer types provided by the `FHE` library in fhevm and explains their usage, including casting, state variable declarations, and type-specific considerations.
 
 ## Introduction
 
