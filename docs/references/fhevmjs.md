@@ -2,7 +2,7 @@
 
 This document provides an overview of the `@httpz/sdk` library, detailing its initialization, instance creation, input handling, encryption, and re-encryption processes.
 
-[@httpz/sdk](https://github.com/zama-ai/fhevmjs/) is designed to assist in creating encrypted inputs and retrieving re-encryption data off-chain through a gateway. The library works with any HTTPZ Coprocessors.
+[@httpz/sdk](https://github.com/zama-ai/fhevm-js/) is designed to assist in creating encrypted inputs and retrieving re-encryption data off-chain through a gateway. The library works with any HTTPZ Coprocessors.
 
 ## Init (browser)
 
