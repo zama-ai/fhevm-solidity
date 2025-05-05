@@ -1,7 +1,7 @@
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/zama-ai/fhevm/assets/157474013/b07e7e65-12b2-4048-b5de-35e169ed96e4">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/zama-ai/fhevm/assets/157474013/c0fab5b1-adef-4db4-9607-fa0a793acaf8">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/zama-ai/fhevm-solidity/assets/157474013/b07e7e65-12b2-4048-b5de-35e169ed96e4">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/zama-ai/fhevm-solidity/assets/157474013/c0fab5b1-adef-4db4-9607-fa0a793acaf8">
   <img width=600 alt="Zama fhEVM">
 </picture>
 </p>
@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/zama-ai/fhevm/releases">
+  <a href="https://github.com/zama-ai/fhevm-solidity/releases">
     <img src="https://img.shields.io/github/v/release/zama-ai/fhevm?style=flat-square"></a>
-  <a href="https://github.com/zama-ai/fhevm/blob/main/LICENSE">
+  <a href="https://github.com/zama-ai/fhevm-solidity/blob/main/LICENSE">
     <!-- markdown-link-check-disable-next-line -->
     <img src="https://img.shields.io/badge/License-BSD--3--Clause--Clear-%23ffb243?style=flat-square"></a>
   <a href="https://github.com/zama-ai/bounty-program">
@@ -96,7 +96,7 @@ year = "2024"
 
 There are two ways to contribute to the Zama fhEVM:
 
-- [Open issues](https://github.com/zama-ai/fhevm/issues/new/choose) to report bugs and typos, or to suggest new ideas
+- [Open issues](https://github.com/zama-ai/fhevm-solidity/issues/new/choose) to report bugs and typos, or to suggest new ideas
 - Request to become an official contributor by emailing hello@zama.ai.
 
 Becoming an approved contributor involves signing our Contributor License Agreement (CLA). Only approved contributors can send pull requests, so please make sure to get in touch before you do!
@@ -130,8 +130,8 @@ This software is distributed under the **BSD-3-Clause-Clear** license. Read [thi
 
 <a target="_blank" href="https://community.zama.ai">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/zama-ai/fhevm/assets/157474013/e249e1a8-d724-478c-afa8-e4fe01c1a0fd">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/zama-ai/fhevm/assets/157474013/a72200cc-d93e-44c7-81a8-557901d8798d">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/zama-ai/fhevm-solidity/assets/157474013/e249e1a8-d724-478c-afa8-e4fe01c1a0fd">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/zama-ai/fhevm-solidity/assets/157474013/a72200cc-d93e-44c7-81a8-557901d8798d">
   <img alt="Support">
 </picture>
 </a>

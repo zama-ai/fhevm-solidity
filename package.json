@@ -40,7 +40,7 @@
   "author": "",
   "license": "BSD-3-Clause-Clear",
   "bugs": {
-    "url": "https://github.com/zama-ai/fhevm/issues"
+    "url": "https://github.com/zama-ai/fhevm-solidity/issues"
   },
   "homepage": "https://github.com/zama-ai/fhevm#readme",
   "devDependencies": {
