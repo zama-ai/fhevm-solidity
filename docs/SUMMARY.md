@@ -1,7 +1,7 @@
 # Table of contents
 
 - [Welcome to fhEVM](README.md)
-- [White paper](https://github.com/zama-ai/fhevm/blob/main/fhevm-whitepaper-v2.pdf)
+- [White paper](https://github.com/zama-ai/fhevm-solidity/blob/main/fhevm-whitepaper-v2.pdf)
 
 ## Getting Started
 
@@ -76,7 +76,7 @@
 
 - [Contributing](developer/contribute.md)
 - [Development roadmap](developer/roadmap.md)
-- [Release note](https://github.com/zama-ai/fhevm/releases)
-- [Feature request](https://github.com/zama-ai/fhevm/issues/new?assignees=&labels=enhancement&projects=&template=feature-request.md&title=)
-- [Bug report](https://github.com/zama-ai/fhevm/issues/new?assignees=&labels=bug&projects=&template=bug_report_fhevm.md&title=)
+- [Release note](https://github.com/zama-ai/fhevm-solidity/releases)
+- [Feature request](https://github.com/zama-ai/fhevm-solidity/issues/new?assignees=&labels=enhancement&projects=&template=feature-request.md&title=)
+- [Bug report](https://github.com/zama-ai/fhevm-solidity/issues/new?assignees=&labels=bug&projects=&template=bug_report_fhevm.md&title=)
 - [Status](https://status.zama.ai/)

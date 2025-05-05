@@ -41,7 +41,7 @@ function bid(einput encryptedValue, bytes calldata inputProof) external onlyBefo
 ```
 
 {% hint style="info" %}
-This is a simplified example to demonstrate the functionality. For a complete implementation with proper error handling and additional features, see the [Blind Auction contract example](https://github.com/zama-ai/fhevm/blob/29fe1f12236010737d86df156dc22eb6dedd0caa/examples/BlindAuction.sol#L92-L143).
+This is a simplified example to demonstrate the functionality. For a complete implementation with proper error handling and additional features, see the [Blind Auction contract example](https://github.com/zama-ai/fhevm-solidity/blob/29fe1f12236010737d86df156dc22eb6dedd0caa/examples/BlindAuction.sol#L92-L143).
 {% endhint %}
 
 ### **How It Works**

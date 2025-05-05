@@ -110,7 +110,7 @@ Always re-encrypt to validate ciphertext transformations and confirm operations.
 
 To continue your journey and deepen your knowledge, explore the resources below.
 
-- [**Read the Whitepaper**](https://github.com/zama-ai/fhevm/blob/main/fhevm-whitepaper-v2.pdf): Understand the core technology behind fhEVM, including its cryptographic foundations and use cases.
+- [**Read the Whitepaper**](https://github.com/zama-ai/fhevm-solidity/blob/main/fhevm-whitepaper-v2.pdf): Understand the core technology behind fhEVM, including its cryptographic foundations and use cases.
 - [**See more demos and tutorials**](../../../tutorials/see-all-tutorials.md): Expand your skills with hands-on demos and tutorials crafted to guide you through various real-world scenarios.
 - [**Try out AI coding assistant**](https://chatgpt.com/g/g-67518aee3c708191b9f08d077a7d6fa1-zama-solidity-developer): If you have a chatGPT plus account, try out our custom ChatGPT model tailored for Solidity and fhEVM developers.
 

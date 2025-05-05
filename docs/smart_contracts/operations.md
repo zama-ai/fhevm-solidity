@@ -162,7 +162,7 @@ Notice that we did not check separately the overflow on `balances[msg.sender]` b
 ## Additional Resources
 
 - For detailed API specifications, visit the [fhEVM API Documentation](../references/functions.md).
-- Check our [Roadmap](../developer/roadmap.md) for upcoming features or submit a feature request on [GitHub](https://github.com/zama-ai/fhevm/issues/new?template=feature-request.md).
+- Check our [Roadmap](../developer/roadmap.md) for upcoming features or submit a feature request on [GitHub](https://github.com/zama-ai/fhevm-solidity/issues/new?template=feature-request.md).
 - Join the discussion on the [Community Forum](https://community.zama.ai/c/fhevm/15).
 
 {% hint style="success" %}
