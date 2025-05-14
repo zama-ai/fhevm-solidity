@@ -18,10 +18,6 @@ layout:
 # Welcome to fhEVM
 
 
-{% hint style="info" %}
-**Renaming in progress**: The fhEVM solidity library is transitioning to **HTTPZ**. You may see both names referenced for a short time. [Sign up](https://share-eu1.hsforms.com/1F7Z672SsRAeOVyqLdXWn2Q2duixc) to stay informed about the official HTTPZ release.
-{% endhint %}
-
 ## Get started
 
 Learn the basics of fhEVM, set it up, and make it run with ease.
