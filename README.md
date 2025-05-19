@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/zama-ai/fhevm-solidity/releases">
-    <img src="https://img.shields.io/github/v/release/zama-ai/fhevm?style=flat-square"></a>
+    <img src="https://img.shields.io/github/v/release/zama-ai/fhevm-solidity"></a>
   <a href="https://github.com/zama-ai/fhevm-solidity/blob/main/LICENSE">
     <!-- markdown-link-check-disable-next-line -->
     <img src="https://img.shields.io/badge/License-BSD--3--Clause--Clear-%23ffb243?style=flat-square"></a>
