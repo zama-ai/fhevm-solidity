@@ -1,22 +1,31 @@
+# Table of contents
 
 ## Getting Started
-- [Welcome to fhevm](../../README.md)
-- [White paper](https://github.com/zama-ai/fhevm-solidity/blob/main/fhevm-whitepaper-v2.pdf)
+
+* [Welcome to fhevm](README.md)
+* [White paper](https://github.com/zama-ai/fhevm-solidity/blob/main/fhevm-whitepaper-v2.pdf)
+
+***
+
+* [Welcome to fhevm](untitled.md)
 
 ## Architecture
-- [Overview](../../smart_contracts/architecture_overview.md)
-- [FHE on blockchain](../../smart_contracts/architecture_overview/fhe-on-blockchain.md)
-- [fhevm components](../../smart_contracts/architecture_overview/fhevm-components.md)
-- [Encryption, decryption, re-encryption, and computation](../../smart_contracts/d_re_ecrypt_compute.md)
+
+* [Overview](../../smart_contracts/architecture_overview.md)
+* [FHE on blockchain](../../smart_contracts/architecture_overview/fhe-on-blockchain.md)
+* [fhevm components](../../smart_contracts/architecture_overview/fhevm-components.md)
+* [Encryption, decryption, re-encryption, and computation](../../smart_contracts/d_re_ecrypt_compute.md)
 
 ## References
-- [Table of all addresses](../../references/table_of_addresses.md)
-- [Repositories](../../getting-started/overview.md)
+
+* [Table of all addresses](../../references/table_of_addresses.md)
+* [Repositories](../../getting-started/overview.md)
 
 ## Developer
-- [Contributing](../../developer/contribute.md)
-- [Development roadmap](../../developer/roadmap.md)
-- [Release note](https://github.com/zama-ai/fhevm-solidity/releases)
-- [Feature request](../../https://github.com/zama-ai/fhevm-solidity/issues/new?assignees=&labels=enhancement&projects=&template=feature-request.md&title=)
-- [Bug report](../../https://github.com/zama-ai/fhevm-solidity/issues/new?assignees=&labels=bug&projects=&template=bug_report_fhevm.md&title=)
-- [Status](../../https://status.zama.ai/)
+
+* [Contributing](../../developer/contribute.md)
+* [Development roadmap](../../developer/roadmap.md)
+* [Feature request](developer/feature-request.md)
+* [Bug report](developer/bug-report.md)
+* [Status](developer/status.md)
+* [Release note](https://github.com/zama-ai/fhevm-solidity/releases)

@@ -1,6 +1,10 @@
+---
+icon: diamonds-4
+---
+
 # fhevm components
 
-This document gives a detailed explanantion of each component of fhevm and illustrate how they work together to perform computations.&#x20;
+This document gives a detailed explanantion of each component of fhevm and illustrate how they work together to perform computations.
 
 ## Overview
 
@@ -31,8 +35,8 @@ fhevm smart contracts include the Access Control List (ACL) contract, `FHE.sol` 
 
 fhevm implements **symbolic execution** to optimize FHE computations:
 
-- **Handles**: Operations on encrypted data return "handles" (references to ciphertexts) instead of immediate results.
-- **Lazy Execution**: Actual computations are performed asynchronously, offloading resource-intensive tasks to the coprocessor.
+* **Handles**: Operations on encrypted data return "handles" (references to ciphertexts) instead of immediate results.
+* **Lazy Execution**: Actual computations are performed asynchronously, offloading resource-intensive tasks to the coprocessor.
 
 This approach ensures high throughput and flexibility in managing encrypted data.
 
@@ -40,8 +44,8 @@ This approach ensures high throughput and flexibility in managing encrypted data
 
 fhevm incorporates ZKPoKs to verify the correctness of encrypted inputs and outputs:
 
-- **Validation**: ZKPoKs ensure that inputs are correctly formed and correspond to known plaintexts without revealing sensitive data.
-- **Integrity**: They prevent misuse of ciphertexts and ensure the correctness of computations.
+* **Validation**: ZKPoKs ensure that inputs are correctly formed and correspond to known plaintexts without revealing sensitive data.
+* **Integrity**: They prevent misuse of ciphertexts and ensure the correctness of computations.
 
 By combining symbolic execution and ZKPoKs, fhevm smart contracts maintain both privacy and verifiability.
 
@@ -60,9 +64,9 @@ The Gateway acts as the bridge between the blockchain, coprocessor, and KMS.
 
 ### **Key functions**:
 
-- **API for developers**: Exposes endpoints for submitting encrypted inputs, retrieving outputs, and managing ciphertexts.
-- **Proof validation**: Forwards ZKPoKs to the KMS for verification.
-- **Off-chain coordination**: Relays encrypted data and computation results between on-chain and off-chain systems.
+* **API for developers**: Exposes endpoints for submitting encrypted inputs, retrieving outputs, and managing ciphertexts.
+* **Proof validation**: Forwards ZKPoKs to the KMS for verification.
+* **Off-chain coordination**: Relays encrypted data and computation results between on-chain and off-chain systems.
 
 The Gateway simplifies the development process by abstracting the complexity of cryptographic operations.
 
@@ -72,12 +76,12 @@ The KMS securely manages the cryptographic backbone of fhevm by maintaining and 
 
 ### **Key functions**:
 
-- **Threshold decryption**: Uses Multi-Party Computation (MPC) to securely decrypt ciphertexts without exposing the private key to any single entity.
-- **ZKPoK validation**: Verifies proofs of plaintext knowledge to ensure that encrypted inputs are valid.
-- **Key distribution**: Maintains the global FHE keys, which include:
-  - **Public key**: Used for encrypting data (accessible to the frontend and smart contracts).
-  - **Private key**: Stored securely in the KMS and used for decryption.
-  - **Evaluation key**: Used by the coprocessor to perform FHE computations.
+* **Threshold decryption**: Uses Multi-Party Computation (MPC) to securely decrypt ciphertexts without exposing the private key to any single entity.
+* **ZKPoK validation**: Verifies proofs of plaintext knowledge to ensure that encrypted inputs are valid.
+* **Key distribution**: Maintains the global FHE keys, which include:
+  * **Public key**: Used for encrypting data (accessible to the frontend and smart contracts).
+  * **Private key**: Stored securely in the KMS and used for decryption.
+  * **Evaluation key**: Used by the coprocessor to perform FHE computations.
 
 The KMS ensures robust cryptographic security, preventing single points of failure and maintaining public verifiability.
 

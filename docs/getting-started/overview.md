@@ -1,4 +1,8 @@
-# Overview
+---
+icon: cabinet-filing
+---
+
+# Repositories
 
 <figure><img src="../.gitbook/assets/doc_header_fhevm.png" alt=""><figcaption></figcaption></figure>
 
@@ -6,7 +10,7 @@ fhevm is a suite of solutions that enables confidential smart contracts on the E
 
 ### For dApp developers
 
-The fhevm Protocol provides a **`FHE` Solidity library** for building confidential smart contracts, a **fhevm SDK** to enable front‐end FHE interactions, and a range of developer tools, examples, and templates to streamline the usage for developers.&#x20;
+The fhevm Protocol provides a **`FHE` Solidity library** for building confidential smart contracts, a **fhevm SDK** to enable front‐end FHE interactions, and a range of developer tools, examples, and templates to streamline the usage for developers.
 
 #### Smart contract development
 
@@ -18,7 +22,7 @@ The fhevm Protocol provides a **`FHE` Solidity library** for building confidenti
 
 #### Examples & Resources
 
-<table><thead><tr><th width="258">Repository</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/zama-ai/dapps">dapps</a></td><td>Sample decentralized applications demonstrating FHE with real‐world code.</td></tr><tr><td><a href="https://github.com/zama-ai/bounty-program">Zama Bounty Program</a></td><td>Explore open challenges and submit contributions to earn rewards.</td></tr><tr><td><a href="https://github.com/zama-ai/awesome-zama">Awesome Zama</a> </td><td>A curated list by the team at Zama of blog posts, libraries, research papers, and tutorials on Fully Homomorphic Encryption (FHE).</td></tr></tbody></table>
+<table><thead><tr><th width="258">Repository</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/zama-ai/dapps">dapps</a></td><td>Sample decentralized applications demonstrating FHE with real‐world code.</td></tr><tr><td><a href="https://github.com/zama-ai/bounty-program">Zama Bounty Program</a></td><td>Explore open challenges and submit contributions to earn rewards.</td></tr><tr><td><a href="https://github.com/zama-ai/awesome-zama">Awesome Zama</a></td><td>A curated list by the team at Zama of blog posts, libraries, research papers, and tutorials on Fully Homomorphic Encryption (FHE).</td></tr></tbody></table>
 
 ### For network builders
 

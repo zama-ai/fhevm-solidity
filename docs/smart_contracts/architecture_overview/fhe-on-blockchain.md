@@ -1,3 +1,7 @@
+---
+icon: dice-d6
+---
+
 # FHE on blockchain
 
 This page gives an overview of Fully Homomorphic Encryption (FHE) and its implementation on the blockchain by fhevm. It provides the essential architectural concepts needed to start building with fhevm.
@@ -8,25 +12,25 @@ FHE is an advanced cryptographic technique that allows computations to be perfor
 
 With FHE:
 
-- Sensitive data can be securely encrypted while still being useful for computations.
-- The results of computations are encrypted, maintaining end-to-end privacy.
+* Sensitive data can be securely encrypted while still being useful for computations.
+* The results of computations are encrypted, maintaining end-to-end privacy.
 
 FHE operates using three types of keys, each playing a crucial role in its functionality:
 
 ### **Private key**
 
-- **Purpose**: - for securely decrypting results - Decrypts ciphertexts to recover the original plaintext.
-- **Usage in fhevm**: Managed securely by the Key Management System (KMS) using a threshold MPC protocol. This ensures no single entity ever possesses the full private key.
+* **Purpose**: - for securely decrypting results - Decrypts ciphertexts to recover the original plaintext.
+* **Usage in fhevm**: Managed securely by the Key Management System (KMS) using a threshold MPC protocol. This ensures no single entity ever possesses the full private key.
 
 ### **Public key**
 
-- **Purpose**: - for encrypting data. - Encrypts plaintexts into ciphertexts.
-- **Usage in fhevm**: Shared globally to allow users and smart contracts to encrypt inputs or states. It ensures that encrypted data can be processed without revealing the underlying information.
+* **Purpose**: - for encrypting data. - Encrypts plaintexts into ciphertexts.
+* **Usage in fhevm**: Shared globally to allow users and smart contracts to encrypt inputs or states. It ensures that encrypted data can be processed without revealing the underlying information.
 
 ### **Evaluation key**
 
-- **Purpose**: - for performing encrypted computations - Enables efficient homomorphic operations (e.g., addition, multiplication) on ciphertexts.
-- **Usage in fhevm**: Provided to FHE nodes (on-chain validators or off-chain coprocessors) to perform computations on encrypted data while preserving confidentiality.
+* **Purpose**: - for performing encrypted computations - Enables efficient homomorphic operations (e.g., addition, multiplication) on ciphertexts.
+* **Usage in fhevm**: Provided to FHE nodes (on-chain validators or off-chain coprocessors) to perform computations on encrypted data while preserving confidentiality.
 
 These three keys work together to facilitate private and secure computations, forming the foundation of FHE-based systems like fhevm.
 
@@ -53,5 +57,5 @@ Integrating FHE into blockchain systems posed several challenges that needed to 
 
 To overcome these challenges, Zama introduced a hybrid architecture for fhevm that combines:
 
-- **On-chain** functionality for managing state and enforcing access controls.
-- **Off-chain** processing via a coprocessor to execute resource-intensive FHE computations.
+* **On-chain** functionality for managing state and enforcing access controls.
+* **Off-chain** processing via a coprocessor to execute resource-intensive FHE computations.

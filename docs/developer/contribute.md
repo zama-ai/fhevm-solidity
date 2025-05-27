@@ -1,9 +1,13 @@
+---
+icon: heart
+---
+
 # Contributing
 
 There are two ways to contribute to fhevm:
 
-- [Open issues](https://github.com/zama-ai/fhevm-solidity/issues/new/choose) to report bugs and typos, or to suggest new ideas
-- Request to become an official contributor by emailing [hello@zama.ai](mailto:hello@zama.ai).
+* [Open issues](https://github.com/zama-ai/fhevm-solidity/issues/new/choose) to report bugs and typos, or to suggest new ideas
+* Request to become an official contributor by emailing [hello@zama.ai](mailto:hello@zama.ai).
 
 Becoming an approved contributor involves signing our Contributor License Agreement (CLA). Only approved contributors can send pull requests, so please make sure to get in touch before you do!
 
@@ -11,4 +15,4 @@ Becoming an approved contributor involves signing our Contributor License Agreem
 
 Solve challenges and earn rewards:
 
-- [bounty-program](https://github.com/zama-ai/bounty-program) - Zama's FHE Bounty Program
+* [bounty-program](https://github.com/zama-ai/bounty-program) - Zama's FHE Bounty Program
