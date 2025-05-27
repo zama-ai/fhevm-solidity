@@ -10,13 +10,13 @@ layout: landing
 
 ## Why fhevm?
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Guard Privacy</strong></td><td>Keep user data encrypted onchain.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>Build Fast</strong></td><td>Use Solidity, SDKs, templates, etc.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>Deploy Anywhere</strong></td><td>Compatible with all EVM chains.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Guard Privacy</strong></td><td>Keep data encrypted during onchain computation.</td><td></td></tr><tr><td><strong>Build Fast</strong></td><td>Use Solidity, SDKs, templates, etc.</td><td></td></tr><tr><td><strong>Deploy Anywhere</strong></td><td>Compatible with all EVM chains.</td><td></td></tr></tbody></table>
 
 <a href="./#path-to-build" class="button primary">Start Building</a>
 
 ## Explore the doc
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Solidity Guides</strong></td><td>Write encrypted logic with Solidity tools.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>SKD Guides</strong></td><td>Build frontends with encrypted user data.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>Examples</strong></td><td>Explore real dApps and code templates.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Solidity Guides</strong></td><td>Write encrypted logic with Solidity tools.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td><td><a href="https://app.gitbook.com/o/-MIF05xPVoj0l_wnOGB7/s/mIaweK9iiWMF773uuVPP/">Solidity</a></td></tr><tr><td><strong>SKD Guides</strong></td><td>Build frontends with encrypted user data.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td><td><a href="https://app.gitbook.com/o/-MIF05xPVoj0l_wnOGB7/s/2wDODARNL7cfrn1fsPcS/">SDK</a></td></tr><tr><td><strong>Examples</strong></td><td>Explore real dApps and code templates.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td><td><a href="https://app.gitbook.com/o/-MIF05xPVoj0l_wnOGB7/s/hBX9KO0dtJnFLDRNYCZX/">Examples</a></td></tr></tbody></table>
 
 ## Path to Build&#x20;
 
@@ -78,7 +78,7 @@ Start from Zama's ready-to-use React template.
 {% step %}
 ### To continue
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Architecture</strong></td><td>Understand how the system fits together.</td><td></td></tr><tr><td><strong>Dapps Demos</strong></td><td>Try real projects built with fhevm.</td><td></td></tr><tr><td><strong>White paper</strong></td><td>Dive deep into the cryptographic design.</td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Architecture</strong></td><td>Understand how the system fits together.</td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Dapps Demos</strong></td><td>Try real projects built with fhevm.</td><td></td><td></td></tr><tr><td><strong>White paper</strong></td><td>Dive deep into the cryptographic design.</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 {% endstep %}
 {% endstepper %}
 
