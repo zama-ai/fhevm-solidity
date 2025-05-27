@@ -5,10 +5,6 @@
 * [Welcome to fhevm](README.md)
 * [White paper](https://github.com/zama-ai/fhevm-solidity/blob/main/fhevm-whitepaper-v2.pdf)
 
-***
-
-* [Welcome to fhevm](untitled.md)
-
 ## Architecture
 
 * [Overview](../../smart_contracts/architecture_overview.md)
