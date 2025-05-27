@@ -10,7 +10,7 @@ layout: landing
 
 ## Why fhevm?
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Guard Privacy</strong></td><td>Keep user data encrypted onchain.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>Build Fast</strong></td><td>Use Solidity, SDKs, templates, etc.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>Deploy Anywhere</strong></td><td>Compatible with all EVM chains.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>🟨 <strong>Guard Privacy</strong></td><td>Keep user data encrypted onchain.</td><td></td></tr><tr><td>🟨 <strong>Build Fast</strong></td><td>Use Solidity, SDKs, templates, etc.</td><td></td></tr><tr><td>🟨 <strong>Deploy Anywhere</strong></td><td>Compatible with all EVM chains.</td><td></td></tr></tbody></table>
 
 ## Path to Build&#x20;
 
@@ -62,7 +62,7 @@ contract MyERC20 is SepoliaZamaFHEVMConfig, ConfidentialERC20 {
 {% step %}
 ### To Continue
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Solidity Guides</strong></td><td>Write encrypted logic with Solidity tools.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>SKD Guides</strong></td><td>Build frontends with encrypted user data.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>Examples</strong></td><td>Explore real dApps and code templates.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>Architecture</strong></td><td>Understand how the system fits together.</td><td></td></tr><tr><td><strong>Dapps Demos</strong></td><td>Try real projects built with fhevm.</td><td></td></tr><tr><td><strong>White paper</strong></td><td>Dive deep into the cryptographic design.</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Solidity Guides</strong></td><td>Write encrypted logic with Solidity tools.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>SKD Guides</strong></td><td>Build frontends with encrypted user data.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>Examples</strong></td><td>Explore real dApps and code templates.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>Architecture</strong></td><td>Understand how the system fits together.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>Dapps Demos</strong></td><td>Try real projects built with fhevm.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr><tr><td><strong>White paper</strong></td><td>Dive deep into the cryptographic design.</td><td><a href=".gitbook/assets/PLACE HOLDER (14).png">PLACE HOLDER (14).png</a></td></tr></tbody></table>
 {% endstep %}
 {% endstepper %}
 
