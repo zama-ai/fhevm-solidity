@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-* [Welcome to fhEVM](README.md)
+* [Welcome to fhevm](README.md)
 * [White paper](https://github.com/zama-ai/fhevm-solidity/blob/main/fhevm-whitepaper-v2.pdf)
 
 ## Architecture
