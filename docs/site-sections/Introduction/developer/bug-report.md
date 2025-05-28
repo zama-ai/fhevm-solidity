@@ -1,6 +1,0 @@
----
-icon: spider
----
-
-# Bug report
-
