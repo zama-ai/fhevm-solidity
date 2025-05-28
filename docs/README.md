@@ -1,3 +1,20 @@
+---
+description: >-
+  fhevm is a technology that enables confidential smart contracts on the EVM
+  using Fully Homomorphic Encryption (FHE).
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # Welcome to fhevm
 
 ## Why fhevm?
