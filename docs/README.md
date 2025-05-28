@@ -1,11 +1,3 @@
----
-description: >-
-  fhevm is a technology that enables confidential smart contracts on the EVM
-  using Fully Homomorphic Encryption (FHE).
-icon: book-open
-layout: landing
----
-
 # Welcome to fhevm
 
 ## Why fhevm?
@@ -46,7 +38,7 @@ npm install fhevm-contracts
 {% endstep %}
 
 {% step %}
-### Write your first confidnetial smart contract
+### Write your first confidential smart contract
 
 Use the provided contract examples, like `ConfidentialERC20`, to begin. A basic confidential token contract might look like this:
 
@@ -72,7 +64,7 @@ contract MyERC20 is SepoliaZamaFHEVMConfig, ConfidentialERC20 {
 
 Start from Zama's ready-to-use React template.
 
-<a href="https://app.gitbook.com/o/-MIF05xPVoj0l_wnOGB7/s/2wDODARNL7cfrn1fsPcS/" class="button primary">See the full SDK guide</a>    <a href="https://github.com/zama-ai/fhevm-react-template" class="button secondary">Clone the teamplate</a>   &#x20;
+<a href="https://app.gitbook.com/o/-MIF05xPVoj0l_wnOGB7/s/2wDODARNL7cfrn1fsPcS/" class="button primary">See the full SDK guide</a>    <a href="https://github.com/zama-ai/fhevm-react-template" class="button secondary">Clone the template</a>   ;
 {% endstep %}
 
 {% step %}
@@ -82,7 +74,7 @@ Start from Zama's ready-to-use React template.
 {% endstep %}
 {% endstepper %}
 
-## Help Center&#x20;
+## Help Center;
 
 Ask technical questions and discuss with the community.
 
